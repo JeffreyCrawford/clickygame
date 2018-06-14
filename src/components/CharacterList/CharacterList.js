@@ -3,6 +3,10 @@ import "./CharacterList.css";
 
 
 
+
+
+
+
 const CharacterList = props => {
     return (
         <div className="container containerCL">
