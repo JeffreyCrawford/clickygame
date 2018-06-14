@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "armistice",
+        "image": "./images/armistice"
+    },
+
+    {
+        "id": 1,
+        "name": "bernard",
+        "image": "./images/bernard"
+    },
+
+    {
+        "id": 2,
+        "name": "charlotte",
+        "image": "./images/charlotte"
+    },
+    
+    {
+        "id": 3,
+        "name": "dolores",
+        "image": "./images/dolores"
+    },
+
+    {
+        "id": 4,
+        "name": "elsie",
+        "image": "./images/elsie"
+    },
+    
+    {
+        "id": 5,
+        "name": "ford",
+        "image": "./images/ford"
+    },
+
+    {
+        "id": 6,
+        "name": "lee",
+        "image": "./images/lee"
+    },
+    
+    {
+        "id": 7,
+        "name": "logan",
+        "image": "./images/logan"
+    },
+
+    {
+        "id": 8,
+        "name": "maeve",
+        "image": "./images/maeve"
+    },
+    
+    {
+        "id": 9,
+        "name": "teddy",
+        "image": "./images/teddy"
+    },
+
+    {
+        "id": 10,
+        "name": "theresa",
+        "image": "./images/theresa"
+    },
+
+    {
+        "id": 11,
+        "name": "william",
+        "image": "./images/william"
+    }
+]
+
