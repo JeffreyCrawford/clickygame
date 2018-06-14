@@ -1,0 +1,14 @@
+.jumbotron {
+    background-image: url("https://ak9.picdn.net/shutterstock/videos/18674369/thumb/1.jpg");
+    background-size: cover
+}
+
+.lead {
+    color: white
+}
+
+
+.display-4 {
+    font-weight: bolder;
+    color: white;
+}

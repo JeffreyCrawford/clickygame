@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import CharacterCard from "./components/CharacterCard";
+import Wrapper from "./components/Wrapper/";
+import Title from "./components/Title/";
+
 import CharacterList from "./components/CharacterList/"
 import characters from "./characters.json";
-
+import Guess from "./components/Guess/"
 import './App.css';
+import Navbar from './components/Navbar/';
+import Jumbotron from './components/Jumbotron/';
+
+
 
 const App = () => (
   
-   <Wrapper>
-    <Title>Character List</Title>
-    <CharacterList characters={characters} />
-  </Wrapper> 
-
+  <div>
+    
+    <Jumbotron />
+ 
+    <Wrapper>
+      <Guess />
+    </Wrapper> 
+  </div>
 
 
 );

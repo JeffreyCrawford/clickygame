@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JrbItQz/glowing-futuristic-network-shape-loopable-background-4k-4096x2304_nvzq1ms0g__F0000.png");
-
 }
 
 .App-logo {
@@ -29,6 +27,3 @@
   to { transform: rotate(360deg); }
 }
 
-body {
-
-}
