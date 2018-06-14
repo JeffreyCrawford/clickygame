@@ -19,10 +19,15 @@ const shuffle = function(array) {
 
 class Guess extends React.Component {
 
+    componentDidMount() {
+        shuffle(characters)
+    }
+
     state = {
         score: 0,
         message: "",
     }
+
 
 
 
@@ -47,7 +52,6 @@ class Guess extends React.Component {
             })
         }
         shuffle(characters)
-        console.log(guesses)
     }
 
     render() {
