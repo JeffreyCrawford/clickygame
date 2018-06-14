@@ -4,24 +4,11 @@ import characters from "../../characters.json";
 
 let guesses = [];
 
-const shuffle = function(array) {
-    let i = 0
-    let j = 0
-    let temp = null
 
-  for (i = array.length - 1; i > 0; i -= 1) {
-    j = Math.floor(Math.random() * (i + 1))
-    temp = array[i]
-    array[i] = array[j]
-    array[j] = temp
-  }
-}
 
 class Guess extends React.Component {
 
-    componentDidMount() {
-        shuffle(characters)
-    }
+
 
     state = {
         score: 0,
@@ -51,7 +38,7 @@ class Guess extends React.Component {
                 message: "You Guessed Correctly",
             })
         }
-        shuffle(characters)
+        
     }
 
     render() {
