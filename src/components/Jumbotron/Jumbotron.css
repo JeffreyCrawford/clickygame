@@ -1,6 +1,7 @@
 .jumbotron {
     background-image: url("https://ak9.picdn.net/shutterstock/videos/18674369/thumb/1.jpg");
-    background-size: cover
+    background-size: cover;
+    height: 250px;
 }
 
 .lead {
