@@ -10,7 +10,7 @@ const CharacterList = props => {
             <div className="card img-card">
                 <div className="img">
                     <div className="img-container" >
-                        <img alt={characters.name} src={characters.image} onClick={props.guessClick} />
+                        <img alt={characters.name} src={characters.image} id={characters.id} onClick={props.guessClick} />
                     </div>
                 </div>
             </div>

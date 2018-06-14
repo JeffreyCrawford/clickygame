@@ -2,18 +2,35 @@ import React from "react";
 import CharacterList from "../CharacterList";
 import characters from "../../characters.json";
 
+let guesses = [];
+
 class Guess extends React.Component {
 
     state = {
         score: 0,
-        message: ""
+        message: "",
     }
 
-    guessClick = () => {
-        this.setState({
-            score: this.state.score + 1,
-            message: "You Guessed Correctly"
-        })
+    guessClick = event => {
+        let id = event.target.id
+        
+        if (guesses.includes(id)) {
+            this.setState({
+                score: 0,
+                message: "You Guessed Incorrectly",
+            })
+            guesses = []
+        }
+        else {
+            guesses.push(id)
+
+            this.setState({
+                score: this.state.score + 1,
+                message: "You Guessed Correctly",
+            })
+        }
+        
+        console.log(guesses)
     }
 
     render() {
